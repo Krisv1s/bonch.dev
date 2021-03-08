@@ -1,5 +1,5 @@
 function bonchHomeWork(num) {
-  for (let i = num; i > 0; i--) {
+  for (let i = 0; i < num; i += 1) {
     switch (i) {
       case 5:
         console.log('пять');
